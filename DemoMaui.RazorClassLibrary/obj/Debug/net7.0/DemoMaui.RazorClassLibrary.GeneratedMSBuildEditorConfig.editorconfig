@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Components/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTdXJ2ZXlQcm9tcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,3 +43,11 @@ build_metadata.AdditionalFiles.CssScope =
 [E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Component1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1nac0jwpfe
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Components/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-tu1onav0yk
+
+[E:/corsi/maui/DemoMaui/DemoMaui.RazorClassLibrary/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kn5snva4fq

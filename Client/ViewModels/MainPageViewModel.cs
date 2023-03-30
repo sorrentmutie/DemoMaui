@@ -1,5 +1,5 @@
 ﻿using DemoMaui.Helpers;
-using DemoMaui.Models;
+using DemoMaui.RazorClassLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

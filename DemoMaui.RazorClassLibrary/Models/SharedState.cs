@@ -1,4 +1,4 @@
-﻿namespace DemoMaui.Models;
+﻿namespace DemoMaui.RazorClassLibrary.Models;
 
 public class SharedState
 {

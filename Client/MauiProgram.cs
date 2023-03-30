@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
-using DemoMaui.Data;
-using DemoMaui.Models;
 using DemoMaui.ViewModels;
+using DemoMaui.RazorClassLibrary.Models;
+using DemoMaui.RazorClassLibrary.Data;
 
 namespace DemoMaui;
 

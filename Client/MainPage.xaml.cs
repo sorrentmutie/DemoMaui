@@ -1,5 +1,4 @@
-﻿using DemoMaui.Models;
-using DemoMaui.ViewModels;
+﻿using DemoMaui.ViewModels;
 
 namespace DemoMaui;
 

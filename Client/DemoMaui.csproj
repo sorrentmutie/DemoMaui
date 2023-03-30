@@ -57,4 +57,8 @@
       <ProjectReference Include="..\DemoMaui.RazorClassLibrary\DemoMaui.RazorClassLibrary.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages\" />
+    </ItemGroup>
+
 </Project>

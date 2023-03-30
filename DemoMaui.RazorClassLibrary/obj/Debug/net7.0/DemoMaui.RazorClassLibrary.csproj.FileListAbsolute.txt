@@ -15,6 +15,8 @@ E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\staticwebasse
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\staticwebassets.build.json
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\staticwebassets.development.json
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\scopedcss\Component1.razor.rz.scp.css
+E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\scopedcss\Components\MainLayout.razor.rz.scp.css
+E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\scopedcss\Components\NavMenu.razor.rz.scp.css
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\scopedcss\bundle\DemoMaui.RazorClassLibrary.styles.css
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\scopedcss\projectbundle\DemoMaui.RazorClassLibrary.bundle.scp.css
 E:\corsi\maui\DemoMaui\DemoMaui.RazorClassLibrary\obj\Debug\net7.0\DemoMaui.RazorClassLibrary.dll

@@ -1,4 +1,4 @@
-namespace DemoMaui.Data;
+namespace DemoMaui.RazorClassLibrary.Data;
 
 public class WeatherForecast
 {
