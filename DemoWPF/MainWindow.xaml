@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:razorlibrary="clr-namespace:DemoMaui.RazorClassLibrary.Components;assembly=DemoMaui.RazorClassLibrary"
+        xmlns:razorlibrary="clr-namespace:DemoMaui.RazorClassLibrary.Pages;assembly=DemoMaui.RazorClassLibrary"
         xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Wpf;assembly=Microsoft.AspNetCore.Components.WebView.Wpf"  
         xmlns:local="clr-namespace:DemoWPF"
         mc:Ignorable="d"
@@ -21,7 +21,7 @@
         
         <blazor:BlazorWebView Grid.Row="0" Grid.Column="1"  HostPage="wwwroot\index.html" Services="{DynamicResource services}">
             <blazor:BlazorWebView.RootComponents>
-                <blazor:RootComponent Selector="#app" ComponentType="{x:Type razorlibrary:SurveyPrompt}" />
+                <blazor:RootComponent Selector="#app" ComponentType="{x:Type razorlibrary:Counter}" />
             </blazor:BlazorWebView.RootComponents>
         </blazor:BlazorWebView>
 

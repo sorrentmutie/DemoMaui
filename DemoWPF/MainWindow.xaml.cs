@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using DemoMaui.RazorClassLibrary.Models;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,14 @@ namespace DemoWPF
     {
         public MainWindow()
         {
+            var sharedState = App.AppHost?.Services.GetRequiredService<SharedState>();
+
             InitializeComponent();
             var serviceCollection = new ServiceCollection();
+            if(sharedState != null )
+            {
+                serviceCollection.AddSingleton(sharedState);
+            }
             serviceCollection.AddWpfBlazorWebView();
             Resources.Add("services", serviceCollection.BuildServiceProvider());
         }
