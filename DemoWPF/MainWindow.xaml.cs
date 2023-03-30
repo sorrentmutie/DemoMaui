@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,9 @@ namespace DemoWPF
         public MainWindow()
         {
             InitializeComponent();
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddWpfBlazorWebView();
+            Resources.Add("services", serviceCollection.BuildServiceProvider());
         }
     }
 }

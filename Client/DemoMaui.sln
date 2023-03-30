@@ -6,9 +6,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMaui", "DemoMaui.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMaui.RazorClassLibrary", "..\DemoMaui.RazorClassLibrary\DemoMaui.RazorClassLibrary.csproj", "{7D4303F2-1A92-4CA3-ABCF-1F922F47AB91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "..\BlazorApp1\BlazorApp1.csproj", "{361AEF77-564D-4ECE-BDA7-625D4D9C03D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "..\BlazorApp1\BlazorApp1.csproj", "{361AEF77-564D-4ECE-BDA7-625D4D9C03D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWPF", "..\DemoWPF\DemoWPF.csproj", "{7153FC18-1107-44F5-BB58-47E6C55B9A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWPF", "..\DemoWPF\DemoWPF.csproj", "{7153FC18-1107-44F5-BB58-47E6C55B9A72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,7 +39,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2E3ACAD1-54D8-449D-8C12-85AA1163260F}
 		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+		SolutionGuid = {2E3ACAD1-54D8-449D-8C12-85AA1163260F}
 	EndGlobalSection
 EndGlobal

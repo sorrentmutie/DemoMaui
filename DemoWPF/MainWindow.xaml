@@ -4,16 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:razorlibrary="clr-namespace:DemoMaui.RazorClassLibrary.Components;assembly=DemoMaui.RazorClassLibrary"
-        xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.Web;assembly=Microsoft.AspNetCore.Components.Web"
+        xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Wpf;assembly=Microsoft.AspNetCore.Components.WebView.Wpf"  
         xmlns:local="clr-namespace:DemoWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <blazor:BlazorWebView>
-            
-        </blazor:BlazorWebView>
-               
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"></ColumnDefinition>
+            <ColumnDefinition  Width="0.7*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         
+        <blazor:BlazorWebView Grid.Row="0" Grid.Column="1"  HostPage="wwwroot\index.html" Services="{DynamicResource services}">
+            <blazor:BlazorWebView.RootComponents>
+                <blazor:RootComponent Selector="#app" ComponentType="{x:Type razorlibrary:SurveyPrompt}" />
+            </blazor:BlazorWebView.RootComponents>
+        </blazor:BlazorWebView>
+
+
     </Grid>
 </Window>
