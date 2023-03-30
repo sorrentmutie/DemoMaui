@@ -2,6 +2,7 @@
 using DemoMaui.ViewModels;
 using DemoMaui.RazorClassLibrary.Models;
 using DemoMaui.RazorClassLibrary.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace DemoMaui;
 
@@ -10,6 +11,12 @@ public static class MauiProgram
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
+		var configurationBuilder = new ConfigurationBuilder()
+			.AddJsonFile("appsettings.json", optional:false, reloadOnChange: true);
+		var configuration = configurationBuilder.Build();
+
+
+		builder.Configuration.AddConfiguration(configuration);
 		builder
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qbYqg/WfP/hopmRbj3zgWCoiBj2S+0LDugjgrgYDcHBWgOA0W4lV0LzHhCtxIOlb3rpn4kFPztossEq9H7imJA==",
+  "dgSpecHash": "L6PqNodWx5DpBdNTL0I3l8g+lJ8MlGjC6U8Pxn8YIKkjOPZpHeKRNDM5WUj0BkEekGoLolAwS6Gm4Yb1AIYA6g==",
   "success": true,
   "projectFilePath": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\DemoMaui.RazorClassLibrary.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.4\\microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.4\\microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.4\\microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
+    "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
