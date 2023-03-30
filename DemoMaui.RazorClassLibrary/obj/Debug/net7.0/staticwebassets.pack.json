@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DemoMaui.RazorClassLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DemoMaui.RazorClassLibrary.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoMaui.RazorClassLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DemoMaui.RazorClassLibrary.props",
+      "PackagePath": "build\\DemoMaui.RazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoMaui.RazorClassLibrary.props",
+      "PackagePath": "buildMultiTargeting\\DemoMaui.RazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DemoMaui.RazorClassLibrary.props",
+      "PackagePath": "buildTransitive\\DemoMaui.RazorClassLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

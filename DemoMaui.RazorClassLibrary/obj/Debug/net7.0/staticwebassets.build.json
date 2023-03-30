@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "JjDPtrS3QdvJyi/CgjnKiCwMJb3vHK8QpRt5hYupsrM=",
+  "Source": "DemoMaui.RazorClassLibrary",
+  "BasePath": "_content/DemoMaui.RazorClassLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoMaui.RazorClassLibrary\\wwwroot",
+      "Source": "DemoMaui.RazorClassLibrary",
+      "ContentRoot": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\",
+      "BasePath": "_content/DemoMaui.RazorClassLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DemoMaui.RazorClassLibrary.styles.css",
+      "SourceId": "DemoMaui.RazorClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/DemoMaui.RazorClassLibrary",
+      "RelativePath": "DemoMaui.RazorClassLibrary.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DemoMaui.RazorClassLibrary.styles.css"
+    },
+    {
+      "Identity": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DemoMaui.RazorClassLibrary.bundle.scp.css",
+      "SourceId": "DemoMaui.RazorClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/DemoMaui.RazorClassLibrary",
+      "RelativePath": "DemoMaui.RazorClassLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DemoMaui.RazorClassLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\background.png",
+      "SourceId": "DemoMaui.RazorClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\",
+      "BasePath": "_content/DemoMaui.RazorClassLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "DemoMaui.RazorClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\corsi\\maui\\DemoMaui\\DemoMaui.RazorClassLibrary\\wwwroot\\",
+      "BasePath": "_content/DemoMaui.RazorClassLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}
