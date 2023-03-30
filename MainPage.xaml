@@ -15,7 +15,7 @@
         </Grid.ColumnDefinitions>
         <StackLayout BackgroundColor="Aquamarine" Margin="5,5,5,5">
             <Button Text="OK" Command="{Binding CounterCommand}"></Button>
-            <Label Text="{Binding LabelText}"></Label>
+            <Label Text="{Binding LabelText}" FontSize="54" TextColor="red"></Label>
         </StackLayout>
         <BlazorWebView BackgroundColor="AntiqueWhite" Grid.Column="1" x:Name="blazorWebView" HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>

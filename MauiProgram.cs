@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using DemoMaui.Data;
 using DemoMaui.Models;
+using DemoMaui.ViewModels;
 
 namespace DemoMaui;
 
@@ -25,6 +26,8 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton<WeatherForecastService>();
 		builder.Services.AddSingleton<SharedState>();
+		builder.Services.AddSingleton<MainPageViewModel>();
+		builder.Services.AddSingleton<MainPage>();
 
 		return builder.Build();
 	}

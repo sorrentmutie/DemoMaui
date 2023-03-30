@@ -1,9 +1,13 @@
-﻿namespace DemoMaui;
+﻿using DemoMaui.Models;
+using DemoMaui.ViewModels;
+
+namespace DemoMaui;
 
 public partial class MainPage : ContentPage
 {
-	public MainPage()
+	public MainPage(MainPageViewModel mainPageViewModel)
 	{
 		InitializeComponent();
+		BindingContext = mainPageViewModel;
 	}
 }
