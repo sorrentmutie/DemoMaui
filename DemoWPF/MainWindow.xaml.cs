@@ -1,4 +1,6 @@
-﻿using DemoMaui.RazorClassLibrary.Models;
+﻿using DemoMaui.RazorClassLibrary.Data;
+using DemoMaui.RazorClassLibrary.Models;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -25,12 +27,19 @@ namespace DemoWPF
         public MainWindow()
         {
             var sharedState = App.AppHost?.Services.GetRequiredService<SharedState>();
+            var weatherService = App.AppHost?.Services.GetRequiredService<WeatherForecastService>();
+
+            //var configurationBuilder = new ConfigurationBuilder()
+            //  .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            //var configuration = configurationBuilder.Build();
+
 
             InitializeComponent();
             var serviceCollection = new ServiceCollection();
-            if(sharedState != null )
+            if(sharedState != null && weatherService != null )
             {
                 serviceCollection.AddSingleton(sharedState);
+                serviceCollection.AddSingleton(weatherService);
             }
             serviceCollection.AddWpfBlazorWebView();
             Resources.Add("services", serviceCollection.BuildServiceProvider());

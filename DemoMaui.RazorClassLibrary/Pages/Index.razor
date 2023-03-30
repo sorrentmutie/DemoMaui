@@ -1,8 +1,8 @@
 ﻿@page "/"
-@inject IConfiguration configuration
+@*@inject IConfiguration configuration*@
 
 <h1>Hello, world!</h1>
-@configuration["Chiave"]
+@*@configuration["Chiave"]*@
 
 Welcome to your new app.
 
@@ -12,6 +12,6 @@ Welcome to your new app.
 @code {
     protected override void OnInitialized()
     {
-        var setting = configuration["Chiave"];
+       // var setting = configuration["Chiave"];
     }
 }

@@ -11,12 +11,12 @@ public static class MauiProgram
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
-		var configurationBuilder = new ConfigurationBuilder()
-			.AddJsonFile("appsettings.json", optional:false, reloadOnChange: true);
-		var configuration = configurationBuilder.Build();
+		//var configurationBuilder = new ConfigurationBuilder()
+		//	.AddJsonFile("appsettings.json", optional:false, reloadOnChange: true);
+		//var configuration = configurationBuilder.Build();
 
 
-		builder.Configuration.AddConfiguration(configuration);
+		//builder.Configuration.AddConfiguration(configuration);
 		builder
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
